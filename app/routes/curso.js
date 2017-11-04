@@ -2,7 +2,7 @@ module.exports = function(app) {
 	
 	var api = app.api.curso;
 
-	app.route('/curso')
+	app.route('/')
 	.get(api.lista)
 	.post(api.adiciona);
 
