@@ -7,7 +7,7 @@ module.exports = function(app) {
 	.post(api.adiciona);
 
 
-	app.route('/curso/:id')
+	app.route('/:id')
 	.get(api.buscaPorId)
 	.delete(api.removePorId)
 	.put(api.atualiza);
