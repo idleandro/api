@@ -39,7 +39,7 @@ api.adiciona = function(req, res) {
 
 	var curso = req.body;
 	curso._id = ++CONTADOR_ID;
-	cursos.push(foto);
+	cursos.push(curso);
 	res.json(curso);
 };
 
